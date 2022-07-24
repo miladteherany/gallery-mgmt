@@ -1,10 +1,9 @@
 package ir.teherany.entity;
 
-import ir.teherany.gallery.entity.enumuration.Nationality;
+import ir.teherany.entity.enumuration.Nationality;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 @Table(name = "artist")

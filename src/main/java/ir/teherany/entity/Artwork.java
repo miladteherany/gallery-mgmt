@@ -1,6 +1,6 @@
 package ir.teherany.entity;
 
-import ir.teherany.gallery.entity.enumuration.Genre;
+import ir.teherany.entity.enumuration.Genre;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -27,7 +27,4 @@ public class Artwork {
     @Enumerated(EnumType.STRING)
     @Column(name = "genre")
     private Genre genre;
-
-    @OneToMany(mappedBy = "artworkartist")
-    private ArtworkArtist artworkArtist;
 }

@@ -1,7 +1,8 @@
 package ir.teherany.entity;
 
-import ir.teherany.gallery.entity.enumuration.Nationality;
-import ir.teherany.gallery.entity.enumuration.Type;
+
+import ir.teherany.entity.enumuration.Nationality;
+import ir.teherany.entity.enumuration.Type;
 import lombok.Data;
 
 import javax.persistence.*;

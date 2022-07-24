@@ -1,6 +1,6 @@
 package ir.teherany.entity;
 
-import ir.teherany.gallery.entity.enumuration.Status;
+import ir.teherany.entity.enumuration.Status;
 import lombok.Data;
 
 import javax.persistence.*;
