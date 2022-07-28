@@ -6,12 +6,12 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 @Data
-public class ArtWorkEventDto {
+public class EventArtworkDTO {
     @NotNull
     @NotBlank
-    private ArtWorkDto artWork;
+    private EventDTO eventDTO;
 
     @NotNull
     @NotBlank
-    private EventDto event;
+    private ArtWorkDTO artWorkDTO;
 }

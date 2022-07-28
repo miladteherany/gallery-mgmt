@@ -3,7 +3,7 @@ package ir.teherany.dto;
 import lombok.Data;
 
 @Data
-public class LoginDto {
+public class LoginDTO {
     String userName;
     String password;
 }

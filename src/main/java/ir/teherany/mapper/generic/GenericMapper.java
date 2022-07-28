@@ -1,4 +1,4 @@
-package ir.teherany.mapper.Generic;
+package ir.teherany.mapper.generic;
 
 import java.util.List;
 

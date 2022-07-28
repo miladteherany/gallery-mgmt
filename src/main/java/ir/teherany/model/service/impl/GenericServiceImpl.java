@@ -1,6 +1,6 @@
 package ir.teherany.model.service.impl;
 
-import ir.teherany.mapper.Generic.GenericMapper;
+import ir.teherany.mapper.generic.GenericMapper;
 import ir.teherany.model.repository.GenericRepo;
 import ir.teherany.model.service.GenericService;
 

@@ -1,6 +1,7 @@
 package ir.teherany.entity;
 
 
+import ir.teherany.entity.enumuration.Gender;
 import ir.teherany.entity.enumuration.Nationality;
 import ir.teherany.entity.enumuration.Type;
 import lombok.Data;
@@ -31,11 +32,16 @@ public class User {
     @Column(name = "nationalCode")
     private String nationalCode;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "nationality")
     private Nationality nationality;
 
     @Column(name = "avatar")
     private String avatar;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "gender")
+    private Gender gender;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "type")

@@ -21,6 +21,9 @@ public class Artwork {
     @Column(name = "date")
     private Date date;
 
+    @Column(name = "price")
+    private Double price;
+
     @Column(name = "description")
     private String desc;
 

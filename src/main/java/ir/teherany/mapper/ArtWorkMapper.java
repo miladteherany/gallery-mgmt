@@ -1,11 +1,11 @@
 package ir.teherany.mapper;
 
 
-import ir.teherany.dto.ArtWorkDto;
+import ir.teherany.dto.ArtWorkDTO;
 import ir.teherany.entity.Artwork;
-import ir.teherany.mapper.Generic.GenericMapper;
+import ir.teherany.mapper.generic.GenericMapper;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {ArtistMapper.class})
-public interface ArtWorkMapper extends GenericMapper<Artwork, ArtWorkDto> {
+public interface ArtWorkMapper extends GenericMapper<Artwork, ArtWorkDTO> {
 }

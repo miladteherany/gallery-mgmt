@@ -1,5 +1,6 @@
 package ir.teherany.entity;
 
+import ir.teherany.entity.enumuration.Gender;
 import ir.teherany.entity.enumuration.Nationality;
 import lombok.Data;
 
@@ -21,5 +22,7 @@ public class Artist {
     @Column(name = "nationality")
     private Nationality nationality;
 
-
+    @Enumerated(EnumType.STRING)
+    @Column(name = "gender")
+    private Gender gender;
 }
